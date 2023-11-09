@@ -1,4 +1,5 @@
-﻿using DesignPatterns.PattersCriacao;
+﻿/*using DesignPatterns.PattersCriacao; */
+using DesignPatterns.PattersCriacao.AbstractFactory;
 using System;
 
 namespace DesignPatterns
@@ -21,9 +22,13 @@ namespace DesignPatterns
              }
             */
 
-            Client client = new Client();
+            /*Client client = new Client();
 
             client.ExecutarCriacaoProduto();
+            */
+
+            Client client = new Client();
+            client.ConsultarRotinaAluno();
 
         }
     }
